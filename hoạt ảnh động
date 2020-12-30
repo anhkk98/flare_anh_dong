@@ -1,0 +1,16 @@
+add library: flare_flutter
+---------------------------------------
+tạo hoạt ảnh động trên trang: rive.app
+----------------------------------------
+thêm hoạt ảnh động đã tạo trên trang "rive.app" vào assets sau đó khai báo trong pubspec.yaml
+--------------------------------------
+gọi ra:
+    FlareActor("assets/splashscreen.flr",
+              animation: "Sun Rotate",
+
+              fit: BoxFit.contain,
+              alignment: Alignment.center,
+              // Make sure you use the controls with the Flare Actor widget.
+            ),
+-------------------------------------
+tên animation phải trùng với tên animation trên trang rive.app
